@@ -304,7 +304,7 @@ Configuration items related to replicas
 
 ### `max-replicas`
 
-+ The number of replicas
++ The number of all replicas, which is sum of all leaders and all followers. The default value is `3`, which means one leader and two followers.
 + Default value: `3`
 
 ### `location-labels`
